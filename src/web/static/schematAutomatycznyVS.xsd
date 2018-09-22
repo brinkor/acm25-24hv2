@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="acm2524h">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="aktualnosci">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="news">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="tytul" type="xs:string" />
+                    <xs:element name="tresc" type="xs:string" />
+                    <xs:element minOccurs="0" name="autor" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="data_dodania" type="xs:date" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="aktualne" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="oklubie">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sklad">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="zawodnicy">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="pilkarz">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="imie" type="xs:string" />
+                                <xs:element name="nazwisko" type="xs:string" />
+                                <xs:element minOccurs="0" name="rok_ur" type="xs:unsignedShort" />
+                                <xs:element minOccurs="0" name="lat" type="xs:unsignedByte" />
+                                <xs:element name="narodowosc" type="xs:string" />
+                                <xs:element name="zdjecie" type="xs:string" />
+                                <xs:element name="pozycja" type="xs:string" />
+                                <xs:element name="nr_koszulki" type="xs:unsignedByte" />
+                              </xs:sequence>
+                              <xs:attribute name="kontuzja" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="sztab">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="trener">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="imie" type="xs:string" />
+                                <xs:element name="nazwisko" type="xs:string" />
+                                <xs:element name="lat" type="xs:unsignedByte" />
+                                <xs:element name="narodowosc" type="xs:string" />
+                                <xs:element name="zdjecie" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="historia">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="watek">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="nr" type="xs:unsignedByte" />
+                          <xs:element name="temat" type="xs:string" />
+                          <xs:element name="tresc" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element maxOccurs="unbounded" name="link" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="hymn">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="tresc" type="xs:string" />
+                    <xs:element name="video" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tabela">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="klub">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="pozycja" type="xs:unsignedByte" />
+                    <xs:element name="nazwa" type="xs:string" />
+                    <xs:element name="meczy" type="xs:unsignedByte" />
+                    <xs:element name="w" type="xs:unsignedByte" />
+                    <xs:element name="r" type="xs:unsignedByte" />
+                    <xs:element name="p" type="xs:unsignedByte" />
+                    <xs:element name="bilans" type="xs:string" />
+                    <xs:element name="punkty" type="xs:unsignedByte" />
+                  </xs:sequence>
+                  <xs:attribute name="efekt" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="konkurs">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pytania">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="pytanie">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="tresc" type="xs:string" />
+                          <xs:element name="odpowiedz" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="online" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

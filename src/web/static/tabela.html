@@ -1,0 +1,287 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>ACM25/24h</title>
+    <meta name="description" content="Strona o mojej pasji do piłki nożnej i drużyny A.C. Milan" />
+    <meta name="keywords" content="Milan, ac milan, pasja, hobby, piłka nożna, football, drużyna" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <script type="text/javascript" src="java.js"></script>
+
+</head>
+
+<body onload="czas();">
+    <div id="container">
+        <a href="index.html">
+            <div id="logo">
+                <img class="lewe" alt="fb1" src="football1.png" />
+                <img class="logo" alt="acm" src="acm2524h.png" />
+                <img class="prawe" alt="fb2" src="football2.png" />
+            </div>
+        </a>
+
+        <div class="row">
+            <div class="col-2">
+                <div id="menu">
+                    <h3>MENU</h3>
+                    <ul>
+                        <li><a class="zwykle" href="index.html"><h4 class="ramka">Strona Główna<i class="demo-icon icon-home"></i></h4></a></li>
+                        <li class="wysuwane">
+                            <a class="zwykle" href="javascript:void(0)"><h4 class="ramka">O klubie <i class="demo-icon icon-th-list"></i></h4></a>
+                            <div class="wysuniete">
+                                <a href="sklad.html">Skład</a>
+                                <a href="historia.html">Historia</a>
+                                <a href="hymn.html">Hymn</a>
+                            </div>
+                        </li>
+                        <li><a class="zwykle" href="tabela.html"><h4 class="ramka">Tabela <i class="demo-icon icon-clock"></i></h4></a></li>
+                        <li><a class="zwykle" href="konkurs.html"><h4 class="ramka">Konkurs <i class="demo-icon icon-award"></i></h4></a></li>
+                        <li><a class="zwykle" href="kontakt.html"><h4 class="ramka">Kontakt <i class="demo-icon icon-mail"></i></h4></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-7">
+                <div id="content">
+                    <h1>Aktualna Tabela Serie A</h1>
+                    <br />
+                    <table>
+                        <tr>
+                            <th>p.</th>
+                            <th>Drużyna</th>
+                            <th>M</th>
+                            <th>W</th>
+                            <th>R</th>
+                            <th>P</th>
+                            <th>Bilans</th>
+                            <th>Punkty</th>
+                        </tr>
+                        <tr title="Gra w Lidze Mistrzów" class="champions">
+                            <td>1.</td>
+                            <td>Napoli</td>
+                            <td>11</td>
+                            <td>10</td>
+                            <td>1</td>
+                            <td>0</td>
+                            <td>32-8</td>
+                            <td>31</td>
+                        </tr>
+                        <tr title="Gra w Lidze Mistrzów" class="champions">
+                            <td>2.</td>
+                            <td>Inter</td>
+                            <td>11</td>
+                            <td>9</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>30-11</td>
+                            <td>28</td>
+                        </tr>
+                        <tr title="Gra w Lidze Mistrzów" class="champions">
+                            <td>3.</td>
+                            <td>Juventus</td>
+                            <td>11</td>
+                            <td>9</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>29-10</td>
+                            <td>28</td>
+                        </tr>
+                        <tr title="Gra w Lidze Mistrzów" class="champions">
+                            <td>4.</td>
+                            <td>Lazio</td>
+                            <td>11</td>
+                            <td>8</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>26-11</td>
+                            <td>25</td>
+                        </tr>
+                        <tr title="Gra w Lidze Europy" class="european">
+                            <td>5.</td>
+                            <td>Roma</td>
+                            <td>11</td>
+                            <td>8</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>17-5</td>
+                            <td>25</td>
+                        </tr>
+                        <tr title="Gra w Lidze Europy" class="european">
+                            <td>6.</td>
+                            <td>Sampdoria</td>
+                            <td>11</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>22-15</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>7.</td>
+                            <td>Fiorentina</td>
+                            <td>11</td>
+                            <td>6</td>
+                            <td>1</td>
+                            <td>4</td>
+                            <td>19-13</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>8.</td>
+                            <td>Milan</td>
+                            <td>11</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>20-21</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>9.</td>
+                            <td>Torino</td>
+                            <td>11</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>18-21</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <td>10.</td>
+                            <td>Atalanta</td>
+                            <td>11</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>6</td>
+                            <td>16-20</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>11.</td>
+                            <td>Chievo</td>
+                            <td>11</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>6</td>
+                            <td>12-17</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>12.</td>
+                            <td>Bologna</td>
+                            <td>11</td>
+                            <td>4</td>
+                            <td>1</td>
+                            <td>6</td>
+                            <td>16-18</td>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <td>13.</td>
+                            <td>Udinese</td>
+                            <td>11</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>7</td>
+                            <td>14-22</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>14.</td>
+                            <td>Cagliari</td>
+                            <td>11</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>7</td>
+                            <td>11-19</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>15.</td>
+                            <td>Crotone</td>
+                            <td>11</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>7</td>
+                            <td>10-21</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>16.</td>
+                            <td>Spal</td>
+                            <td>11</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>7</td>
+                            <td>6-21</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>17.</td>
+                            <td>Sassuolo</td>
+                            <td>11</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td>8</td>
+                            <td>11-28</td>
+                            <td>9</td>
+                        </tr>
+                        <tr title="Spadek do Serie B" class="relegate">
+                            <td>18.</td>
+                            <td>Genua</td>
+                            <td>11</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>9</td>
+                            <td>3-16</td>
+                            <td>4</td>
+                        </tr>
+                        <tr title="Spadek do Serie B" class="relegate">
+                            <td>19.</td>
+                            <td>Hellas Werona</td>
+                            <td>11</td>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>9</td>
+                            <td>7-24</td>
+                            <td>4</td>
+                        </tr>
+                        <tr title="Spadek do Serie B" class="relegate">
+                            <td>20.</td>
+                            <td>Benevento</td>
+                            <td>11</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td>11</td>
+                            <td>2-23</td>
+                            <td>0</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div id="next_match">
+                    <h1 id="zegar">a</h1>
+                    <h1>------------------</h1>
+                    <h3>Następny mecz:</h3>
+                    <h4>A.C. Milan - AEK Ateny </h4>
+                    <h5>Data:</h5>
+                    <i class="demo-icon icon-calendar"></i>02.11.2017r.
+                    <br /><h5>Godzina:</h5>
+                    <i class="demo-icon icon-clock"></i>20:45
+                </div>
+            </div>
+
+            <div id="footer">
+                Najlepsze w sieci centrum informacji o klubie A.C. Milan - ACM25/24h.pl &copy; Wszelkie prawa zastrzeżone.
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

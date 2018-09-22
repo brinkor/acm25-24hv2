@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>ACM25/24h</title>
+    <meta name="description" content="Strona o mojej pasji do piłki nożnej i drużyny A.C. Milan" />
+    <meta name="keywords" content="Milan, ac milan, pasja, hobby, piłka nożna, football, drużyna" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <script type="text/javascript" src="java.js"></script>
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <script src="external/jquery/jquery.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#date").datepicker();
+            $("#dialog").dialog({
+                position: { my: "left top", at: "left bottom", of: window }
+            });
+        });
+    </script>    
+
+</head>
+
+<body onload="czas(); przyciskDziala();">
+    <div id="container">
+        <a href="index.html">
+            <div id="logo">
+                <img class="lewe" alt="fb1" src="football1.png" />
+                <img class="logo" alt="acm" src="acm2524h.png" />
+                <img class="prawe" alt="fb2" src="football2.png" />
+            </div>
+        </a>
+
+        <div class="row">
+            <div class="col-2">
+                <div id="menu">
+                    <h3>MENU</h3>
+                    <ul>
+                        <li><a class="zwykle" href="index.html"><h4 class="ramka">Strona Główna<i class="demo-icon icon-home"></i></h4></a></li>
+                        <li class="wysuwane">
+                            <a class="zwykle" href="javascript:void(0)"><h4 class="ramka">O klubie <i class="demo-icon icon-th-list"></i></h4></a>
+                            <div class="wysuniete">
+                                <a href="sklad.html">Skład</a>
+                                <a href="historia.html">Historia</a>
+                                <a href="hymn.html">Hymn</a>
+                            </div>
+                        </li>
+                        <li><a class="zwykle" href="tabela.html"><h4 class="ramka">Tabela <i class="demo-icon icon-clock"></i></h4></a></li>
+                        <li><a class="zwykle" href="konkurs.html"><h4 class="ramka">Konkurs <i class="demo-icon icon-award"></i></h4></a></li>
+                        <li><a class="zwykle" href="kontakt.html"><h4 class="ramka">Kontakt <i class="demo-icon icon-mail"></i></h4></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-7">
+                <div id="content">
+                    <div id="animowany_svg">
+                        <svg>
+                            <defs>
+                                <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%"
+                                          style="stop-color:rgb(204,0,0);stop-opacity:1" />
+                                    <stop offset="100%"
+                                          style="stop-color:rgb(0,0,0);stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <ellipse cx="50%" cy="70" rx="30%" ry="55" fill="url(#grad)" />
+                            <text fill="#ffffff" font-size="45" font-family="Verdana"
+                                  x="35%" y="86">Konkurs</text>
+                        </svg>
+                    </div>
+                    <h2 class="centered">Weż udział w konkursie i wygraj bilet do Mediolanu.</h2>
+                    <p class="centered">Należy udzielić poprawnej odpowiedzi na wszystkie pytania.<br /> Nagrodę otrzyma tylko pierwsza osoba.</p>
+                    <div id="dialog">Niekiedy trzeba zaznaczyć kilka odpowiedzi.</div>
+                    <form action="mailto:acm2524h@gmail.com?subject=Zgloszenie%20do%20konkursu%20ACM25/24h.pl" enctype="text/plain" method="post">
+                        <label>Imię: <input name="Imie" /></label><br /><br />
+                        <label>Nazwisko: <input name="Nazwisko" /></label><br /><br />
+                        <label>
+                            Którzy z tych piłkarz grali w barwach A.C. Milan?
+                            <br />-------------------------------------------------<br />
+                            Marco Van Basten <input type="checkbox" name="pilkarz" value="Marco Van Basten" /><br />
+                        </label>
+                        <label>
+                            Robin Van Persie <input type="checkbox" name="pilkarz" value="Robin Van Persie" /> <br />
+                        </label>
+                        <label>
+                            Ronaldo Luís Nazário de Lima <input type="checkbox" name="pilkarz" value="Ronaldo" /> <br />
+                        </label>
+                        <label>
+                            Cafu <input type="checkbox" name="pilkarz" value="Cafu" /> <br />-------------------------------------------------<br /><br />
+                        </label>
+                        <label>Data powstania klubu: <input type="text" name="data powstania klubu" id="date" /></label><br /><br />
+                        <label>Ile ogółem tytułów posiada na swoim koncie Milan? <input type="number" name="tytuly" /></label><br /><br />
+                        <label>
+                            Czy Milan kiedykolwiek zdobył Puchar Zdobywców Pucharów? <br />
+                            Tak <input type="radio" name="PZP" value="tak" />
+                        </label>
+                        <label>
+                            Nie <input type="radio" name="PZP" value="nie" />
+                        </label><br /><br />
+                        <label>Jak nazywał się gracz, który rozegrał najwięcej minut na boisku w klubie A.C. Milan? <input type="text" name="najwiecej minut" /></label><br /><br />
+                        <input type="reset" value="Wyczyść" />
+                        <input type="submit" value="Wyślij" />
+                    </form>
+                    <br />
+                    <div id="tutaj" class="centered">
+                        <h2>Albo nie męcz się, kliknij tutaj i odbierz bilet za darmo</h2>
+                        <button type="button" onclick="licz(); liczSesja();">Kliknij!</button>
+                    </div>
+                    <div id="przyciskNieDziala" class="centered"><p>Niestety, przycisk nie działa z powodu braku aktywnych JavaScript'ów w Twojej przeglądarce.</p></div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div id="next_match">
+                    <h1 id="zegar">a</h1>
+                    <h1>------------------</h1>
+                    <h3>Następny mecz:</h3>
+                    <h4>A.C. Milan - AEK Ateny </h4>
+                    <h5>Data:</h5>
+                    <i class="demo-icon icon-calendar"></i>02.11.2017r.
+                    <br /><h5>Godzina:</h5>
+                    <i class="demo-icon icon-clock"></i>20:45
+                </div>
+            </div>
+
+            <div id="footer">
+                Najlepsze w sieci centrum informacji o klubie A.C. Milan - ACM25/24h.pl &copy; Wszelkie prawa zastrzeżone.
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<acm2524h online="tak">
+  <aktualnosci aktualne="0">
+    <news data_dodania="2017-11-01">
+      <tytul>9 listopada Fassone przedstawi w UEFA plan dobrowolnego porozumienia</tytul>
+      <tresc>La Gazzetta dello Sport informuje, że najprawdopodobniej 9 listopada Marco Fassone przedstawi w UEFA plan dobrowolnego porozumienia w kwestiach Finansowego Fair Play. Włodarze rossonerich liczą, że ich projekt przekona decydentów w Nyonie. Jeśli do tego bowiem nie dojdzie, potrzebne będzie przystąpienie do ugody, z czym spotkały się już m.in. takie kluby jak Inter i Roma. Konieczność zastosowania takiego wariantu mogłaby mocno ograniczyć ewentualne ruchy transferowe Milanu w kolejnych oknach transferowych.</tresc>
+      <autor>Jerzy Nowak</autor>
+    </news>
+    <news data_dodania="2017-11-01">
+      <tytul>David Han Li wyjaśnia: "Moje rzekome wątpliwości co do mercato są całkowicie bezzasadne"</tytul>
+      <tresc>Dziennik Il Giornale napisał, jakoby David Han Li, prawa ręka i bliski współpracownik właściciela Milanu, Yonghonga Li, kwestionował zakupienie Nikoli Kalinicia i Andre Silvy zastanawiając się, dlaczego w tej cenie nie można było pozyskać jednego napastnika z głośnym nazwiskiem, jak Pierre-Emerick Aubameyanga. Na łamach oficjalnej strony internetowej klubu, Chińczyk odniósł się do tego następująco: „Wątpliwości co do mercato i moje rzekome zapytanie, dlaczego nie zakupiono Aubameyanga, są całkowicie bezzasadne. Aubameyang to wielki mistrz, ale jako właściciele Milanu całkowicie podzielamy kampanię transferową naszych dyrektorów i nie mamy wątpliwości co do całkowitej wartości piłkarzy, których wybraliśmy i którzy cieszą się naszym maksymalnym zaufaniem”.</tresc>
+    </news>
+    <news data_dodania="2017-10-30">
+      <tytul>Gattuso jedyną alternatywą dla Montelli</tytul>
+      <tresc>Dziennikarz Sky Sport 24, Peppe Di Stefano, informuje, że Gennaro Gattuso jest jedyną alternatywą do zastąpienia Vincenzo Montelli na stanowisku trenera pierwszej drużyny w przypadku pożegnania się z tym szkoleniowcem. Klub nie bierze pod uwagę zatrudnienia takich osób jak Paulo Sousa czy Walter Mazzarri, o czym dużo spekulowano w mediach. Tak czy inaczej, Montella obecnie nadal cieszy się zaufaniem klubu i dyrektorzy rossonerich nie zamierzają dokonywać roszady na stanowisku trenera. Jeśli jednak ekipa Il Diavolo szybko nie zacznie odnosić satysfakcjonujących wyników, niewykluczone, że kwestia awansu aktualnego szkoleniowca Primavery Milanu do pierwszego zespołu przybierze na sile.</tresc>
+      <autor>Zlatan</autor>
+    </news>  
+  </aktualnosci>
+
+  <oklubie>
+
+    <sklad>
+      <zawodnicy>
+        <pilkarz>
+          <imie>Gianluigi</imie>
+          <nazwisko>Donnaruma</nazwisko>
+          <lat>19</lat>
+          <narodowosc>Włochy</narodowosc>
+          <zdjecie>bonaventura.jpg</zdjecie>
+          <pozycja>bramkarz</pozycja>
+          <nr_koszulki>99</nr_koszulki>
+        </pilkarz>
+        <pilkarz>
+          <imie>Gianluigi</imie>
+          <nazwisko>Donnaruma</nazwisko>
+          <lat>19</lat>
+          <narodowosc></narodowosc>
+          <zdjecie>bonucci.jpg</zdjecie>
+          <pozycja>bramkarz</pozycja>
+          <nr_koszulki>99</nr_koszulki>
+        </pilkarz>
+        <pilkarz>
+          <imie>Gianluigi</imie>
+          <nazwisko>Donnaruma</nazwisko>
+          <lat>19</lat>
+          <narodowosc></narodowosc>
+          <zdjecie>conti.jpg</zdjecie>
+          <pozycja>bramkarz</pozycja>
+          <nr_koszulki>99</nr_koszulki>
+        </pilkarz>
+        <pilkarz>
+          <imie>Gianluigi</imie>
+          <nazwisko>Donnaruma</nazwisko>
+          <lat>19</lat>
+          <narodowosc></narodowosc>
+          <zdjecie>kessie.jpg</zdjecie>
+          <pozycja>bramkarz</pozycja>
+          <nr_koszulki>99</nr_koszulki>
+        </pilkarz>
+        <pilkarz>
+          <imie>Gianluigi</imie>
+          <nazwisko>Donnaruma</nazwisko>
+          <lat>19</lat>
+          <narodowosc></narodowosc>
+          <zdjecie>musacchio.jpg</zdjecie>
+          <pozycja>bramkarz</pozycja>
+          <nr_koszulki>99</nr_koszulki>
+        </pilkarz>
+        <pilkarz>
+          <imie>Gianluigi</imie>
+          <nazwisko>Donnaruma</nazwisko>
+          <rok_ur>1989</rok_ur>
+          <narodowosc></narodowosc>
+          <zdjecie>RR.jpg</zdjecie>
+          <pozycja>bramkarz</pozycja>
+          <nr_koszulki>99</nr_koszulki>
+        </pilkarz>
+        <pilkarz kontuzja="kolano">
+          <imie>Gianluigi</imie>
+          <nazwisko>Donnaruma</nazwisko>
+          <rok_ur>1986</rok_ur>
+          <narodowosc></narodowosc>
+          <zdjecie>silva.jpg</zdjecie>
+          <pozycja>bramkarz</pozycja>
+          <nr_koszulki>17</nr_koszulki>
+        </pilkarz>
+        <pilkarz>
+          <imie>Gianluigi</imie>
+          <nazwisko>Donnaruma</nazwisko>
+            <lat>19</lat>
+          <narodowosc></narodowosc>
+          <zdjecie>suso.jpg</zdjecie>
+          <pozycja>bramkarz</pozycja>
+          <nr_koszulki>99</nr_koszulki>
+        </pilkarz>
+        <pilkarz>
+          <imie>Gianluigi</imie>
+          <nazwisko>Donnaruma</nazwisko>
+          <lat>19</lat>
+          <narodowosc></narodowosc>
+          <zdjecie>donna.jpg</zdjecie>
+          <pozycja>bramkarz</pozycja>
+          <nr_koszulki>99</nr_koszulki>
+        </pilkarz>
+      </zawodnicy>
+      
+      <sztab>
+        <trener>
+          <imie>Vincenzo</imie>
+          <nazwisko>Montella</nazwisko>
+          <lat>43</lat>
+          <narodowosc>Włochy</narodowosc>
+          <zdjecie>montella.jpg</zdjecie>
+        </trener>
+      </sztab>
+
+    </sklad>
+
+    <historia>
+      <watek>
+        <nr>1</nr>
+        <temat>Początki</temat>
+        <tresc>Klub piłkarski AC Milan utworzony został 16 grudnia 1899 roku, tuż przed końcem XIX wieku w Fiaschetteria Toscana na ulicy Berchet (pierwsza kwatera główna, która już nie istnieje). Na pomysł stworzenia klubu wpadli trzej Anglicy: pracownik w fabryce koronkowej (Kilpin), pracownik w agencji podróżniczej (Allison), oraz szewc (Davies). Po pół litra piwa i szklaneczce dobrego wina ("Chianti") trzej przyjaciele przedstawili swój pomysł dwojgu businessmanom - Edwardsowi Nathanowi i Barnettowi. Chcieli oni założyć klub krykietowy i piłkarski o nazwie Milan. Edwards, mianowany prezydent, nie był znany ze swojej hojności i zaakceptował pomysł, gdyż Davies (szewc), zaoferował siłę robocza i skórę do robienia butów piłkarskich. Wieści rozeszły się po Mediolanie jak błyskawica, a pomysł zyskał ogromne poparcie wśród ludzi. Ci którzy stali się członkami zarządu, zazwyczaj byli ważnymi osobistościami w mediolańskiej burżuazji, którzy również stali się pełnymi sukcesu businessman'ami: Valerio, Dubini, Angeloni, Lamperio i przede wszystkim Piero Pirelli, przyszły prezydent. Celem klubu było rozprzestrzenianie piłki nożnej i gry w krykieta, tak bardzo jak tylko jest to możliwe. Są pewne wątpliwości, jeżeli chodzi o prawdziwą datę, ale najbardziej prawdopodobna wydaje się wersja Marquess'a Porro Lambertenghi'ego, pierwszego historyka Milanu. Nowy klub zarejestrowany został przez FIF (Italian Football Federatin) i dołączył do sceny włoskiej piłki nożnej - drużyna która mogła sobie wyrzeźbić reputacje najbardziej groźnej w lidze. Milan chciał wziąć udział w pierwszych narodowych mistrzostwach i po tym jak znaleźli kwaterę główna, musieli znaleźć miejsce na boisko, na którym mogli by rozgrywać swoje mecze. Członkowie klubu znaleźli kawałek otwartej przestrzeni po stronie dzisiejszej stacji kolejowej - Trotter. Na oficjalne otwarcie obiektu zaproszony został inny mediolański klub na spotkanie towarzyskie (Mediolanium). Był to 11 marzec 1900 roku. Milan grał w białych spodenkach i w czerwono-czarnych pasiastych koszulkach. Ostateczny wynik był zachwycający 3:0 dla Milanu. Pierwszymi zawodnikami, grającymi dla "Diabłów" (tak nazywano Milan) byli: Hoode, Cignaghi, Toretta, Lees, Kilpin, Valerio, Dubini, Davies, Neville, Allison, Formenti. 15 kwietnia Milan podjął Turyn i w pierwszym meczu w mistrzostwach zostali zgniecieni przez przeciwnika 3:0. Jednak tydzień później odegrali się i pokonali w "Medalu króla" (King's Medal) Juventus 2:0 (Gole strzelił Kilpin i Allison). Herbert Kilpin był zarówno założycielem klubu jak i jego kapitanem. Milan również był pierwszym zespołem, który użył słupków bramkowych. Nowość ukazana została na boisku na Fratelli Bronzetti. Po wygraniu swoich trzech pierwszych tytułów w roku 1901, 1906 i 1907 nastąpił rozłam. Grupa członków klubu nie zgadzała się z zarządem, opuściła drużynę i stworzyła nowy klub Inter Milan.</tresc>
+      </watek>
+      <watek>
+        <nr>2</nr>
+        <temat>San Siro</temat>
+        <tresc>Klub piłkarski AC Milan utworzony został 16 grudnia 1899 roku, tuż przed końcem XIX wieku w Fiaschetteria Toscana na ulicy Berchet (pierwsza kwatera główna, która już nie istnieje). Na pomysł stworzenia klubu wpadli trzej Anglicy: pracownik w fabryce koronkowej (Kilpin), pracownik w agencji podróżniczej (Allison), oraz szewc (Davies). Po pół litra piwa i szklaneczce dobrego wina ("Chianti") trzej przyjaciele przedstawili swój pomysł dwojgu businessmanom - Edwardsowi Nathanowi i Barnettowi. Chcieli oni założyć klub krykietowy i piłkarski o nazwie Milan. Edwards, mianowany prezydent, nie był znany ze swojej hojności i zaakceptował pomysł, gdyż Davies (szewc), zaoferował siłę robocza i skórę do robienia butów piłkarskich. Wieści rozeszły się po Mediolanie jak błyskawica, a pomysł zyskał ogromne poparcie wśród ludzi. Ci którzy stali się członkami zarządu, zazwyczaj byli ważnymi osobistościami w mediolańskiej burżuazji, którzy również stali się pełnymi sukcesu businessman'ami: Valerio, Dubini, Angeloni, Lamperio i przede wszystkim Piero Pirelli, przyszły prezydent. Celem klubu było rozprzestrzenianie piłki nożnej i gry w krykieta, tak bardzo jak tylko jest to możliwe. Są pewne wątpliwości, jeżeli chodzi o prawdziwą datę, ale najbardziej prawdopodobna wydaje się wersja Marquess'a Porro Lambertenghi'ego, pierwszego historyka Milanu. Nowy klub zarejestrowany został przez FIF (Italian Football Federatin) i dołączył do sceny włoskiej piłki nożnej - drużyna która mogła sobie wyrzeźbić reputacje najbardziej groźnej w lidze. Milan chciał wziąć udział w pierwszych narodowych mistrzostwach i po tym jak znaleźli kwaterę główna, musieli znaleźć miejsce na boisko, na którym mogli by rozgrywać swoje mecze. Członkowie klubu znaleźli kawałek otwartej przestrzeni po stronie dzisiejszej stacji kolejowej - Trotter. Na oficjalne otwarcie obiektu zaproszony został inny mediolański klub na spotkanie towarzyskie (Mediolanium). Był to 11 marzec 1900 roku. Milan grał w białych spodenkach i w czerwono-czarnych pasiastych koszulkach. Ostateczny wynik był zachwycający 3:0 dla Milanu. Pierwszymi zawodnikami, grającymi dla "Diabłów" (tak nazywano Milan) byli: Hoode, Cignaghi, Toretta, Lees, Kilpin, Valerio, Dubini, Davies, Neville, Allison, Formenti. 15 kwietnia Milan podjął Turyn i w pierwszym meczu w mistrzostwach zostali zgniecieni przez przeciwnika 3:0. Jednak tydzień później odegrali się i pokonali w "Medalu króla" (King's Medal) Juventus 2:0 (Gole strzelił Kilpin i Allison). Herbert Kilpin był zarówno założycielem klubu jak i jego kapitanem. Milan również był pierwszym zespołem, który użył słupków bramkowych. Nowość ukazana została na boisku na Fratelli Bronzetti. Po wygraniu swoich trzech pierwszych tytułów w roku 1901, 1906 i 1907 nastąpił rozłam. Grupa członków klubu nie zgadzała się z zarządem, opuściła drużynę i stworzyła nowy klub Inter Milan.</tresc>
+      </watek>
+      <watek>
+        <nr>3</nr>
+        <temat>Nowa nadzieja:Silvo Berlusconi</temat>
+        <tresc>Klub piłkarski AC Milan utworzony został 16 grudnia 1899 roku, tuż przed końcem XIX wieku w Fiaschetteria Toscana na ulicy Berchet (pierwsza kwatera główna, która już nie istnieje). Na pomysł stworzenia klubu wpadli trzej Anglicy: pracownik w fabryce koronkowej (Kilpin), pracownik w agencji podróżniczej (Allison), oraz szewc (Davies). Po pół litra piwa i szklaneczce dobrego wina ("Chianti") trzej przyjaciele przedstawili swój pomysł dwojgu businessmanom - Edwardsowi Nathanowi i Barnettowi. Chcieli oni założyć klub krykietowy i piłkarski o nazwie Milan. Edwards, mianowany prezydent, nie był znany ze swojej hojności i zaakceptował pomysł, gdyż Davies (szewc), zaoferował siłę robocza i skórę do robienia butów piłkarskich. Wieści rozeszły się po Mediolanie jak błyskawica, a pomysł zyskał ogromne poparcie wśród ludzi. Ci którzy stali się członkami zarządu, zazwyczaj byli ważnymi osobistościami w mediolańskiej burżuazji, którzy również stali się pełnymi sukcesu businessman'ami: Valerio, Dubini, Angeloni, Lamperio i przede wszystkim Piero Pirelli, przyszły prezydent. Celem klubu było rozprzestrzenianie piłki nożnej i gry w krykieta, tak bardzo jak tylko jest to możliwe. Są pewne wątpliwości, jeżeli chodzi o prawdziwą datę, ale najbardziej prawdopodobna wydaje się wersja Marquess'a Porro Lambertenghi'ego, pierwszego historyka Milanu. Nowy klub zarejestrowany został przez FIF (Italian Football Federatin) i dołączył do sceny włoskiej piłki nożnej - drużyna która mogła sobie wyrzeźbić reputacje najbardziej groźnej w lidze. Milan chciał wziąć udział w pierwszych narodowych mistrzostwach i po tym jak znaleźli kwaterę główna, musieli znaleźć miejsce na boisko, na którym mogli by rozgrywać swoje mecze. Członkowie klubu znaleźli kawałek otwartej przestrzeni po stronie dzisiejszej stacji kolejowej - Trotter. Na oficjalne otwarcie obiektu zaproszony został inny mediolański klub na spotkanie towarzyskie (Mediolanium). Był to 11 marzec 1900 roku. Milan grał w białych spodenkach i w czerwono-czarnych pasiastych koszulkach. Ostateczny wynik był zachwycający 3:0 dla Milanu. Pierwszymi zawodnikami, grającymi dla "Diabłów" (tak nazywano Milan) byli: Hoode, Cignaghi, Toretta, Lees, Kilpin, Valerio, Dubini, Davies, Neville, Allison, Formenti. 15 kwietnia Milan podjął Turyn i w pierwszym meczu w mistrzostwach zostali zgniecieni przez przeciwnika 3:0. Jednak tydzień później odegrali się i pokonali w "Medalu króla" (King's Medal) Juventus 2:0 (Gole strzelił Kilpin i Allison). Herbert Kilpin był zarówno założycielem klubu jak i jego kapitanem. Milan również był pierwszym zespołem, który użył słupków bramkowych. Nowość ukazana została na boisku na Fratelli Bronzetti. Po wygraniu swoich trzech pierwszych tytułów w roku 1901, 1906 i 1907 nastąpił rozłam. Grupa członków klubu nie zgadzała się z zarządem, opuściła drużynę i stworzyła nowy klub Inter Milan.</tresc>
+      </watek>
+      <watek>
+        <nr>4</nr>
+        <temat>Najlepszy klub świata</temat>
+        <tresc>Klub piłkarski AC Milan utworzony został 16 grudnia 1899 roku, tuż przed końcem XIX wieku w Fiaschetteria Toscana na ulicy Berchet (pierwsza kwatera główna, która już nie istnieje). Na pomysł stworzenia klubu wpadli trzej Anglicy: pracownik w fabryce koronkowej (Kilpin), pracownik w agencji podróżniczej (Allison), oraz szewc (Davies). Po pół litra piwa i szklaneczce dobrego wina ("Chianti") trzej przyjaciele przedstawili swój pomysł dwojgu businessmanom - Edwardsowi Nathanowi i Barnettowi. Chcieli oni założyć klub krykietowy i piłkarski o nazwie Milan. Edwards, mianowany prezydent, nie był znany ze swojej hojności i zaakceptował pomysł, gdyż Davies (szewc), zaoferował siłę robocza i skórę do robienia butów piłkarskich. Wieści rozeszły się po Mediolanie jak błyskawica, a pomysł zyskał ogromne poparcie wśród ludzi. Ci którzy stali się członkami zarządu, zazwyczaj byli ważnymi osobistościami w mediolańskiej burżuazji, którzy również stali się pełnymi sukcesu businessman'ami: Valerio, Dubini, Angeloni, Lamperio i przede wszystkim Piero Pirelli, przyszły prezydent. Celem klubu było rozprzestrzenianie piłki nożnej i gry w krykieta, tak bardzo jak tylko jest to możliwe. Są pewne wątpliwości, jeżeli chodzi o prawdziwą datę, ale najbardziej prawdopodobna wydaje się wersja Marquess'a Porro Lambertenghi'ego, pierwszego historyka Milanu. Nowy klub zarejestrowany został przez FIF (Italian Football Federatin) i dołączył do sceny włoskiej piłki nożnej - drużyna która mogła sobie wyrzeźbić reputacje najbardziej groźnej w lidze. Milan chciał wziąć udział w pierwszych narodowych mistrzostwach i po tym jak znaleźli kwaterę główna, musieli znaleźć miejsce na boisko, na którym mogli by rozgrywać swoje mecze. Członkowie klubu znaleźli kawałek otwartej przestrzeni po stronie dzisiejszej stacji kolejowej - Trotter. Na oficjalne otwarcie obiektu zaproszony został inny mediolański klub na spotkanie towarzyskie (Mediolanium). Był to 11 marzec 1900 roku. Milan grał w białych spodenkach i w czerwono-czarnych pasiastych koszulkach. Ostateczny wynik był zachwycający 3:0 dla Milanu. Pierwszymi zawodnikami, grającymi dla "Diabłów" (tak nazywano Milan) byli: Hoode, Cignaghi, Toretta, Lees, Kilpin, Valerio, Dubini, Davies, Neville, Allison, Formenti. 15 kwietnia Milan podjął Turyn i w pierwszym meczu w mistrzostwach zostali zgniecieni przez przeciwnika 3:0. Jednak tydzień później odegrali się i pokonali w "Medalu króla" (King's Medal) Juventus 2:0 (Gole strzelił Kilpin i Allison). Herbert Kilpin był zarówno założycielem klubu jak i jego kapitanem. Milan również był pierwszym zespołem, który użył słupków bramkowych. Nowość ukazana została na boisku na Fratelli Bronzetti. Po wygraniu swoich trzech pierwszych tytułów w roku 1901, 1906 i 1907 nastąpił rozłam. Grupa członków klubu nie zgadzała się z zarządem, opuściła drużynę i stworzyła nowy klub Inter Milan.</tresc>
+      </watek>
+      <watek>
+        <nr>5</nr>
+        <temat>Koniec dominacji i kryzys</temat>
+        <tresc>Klub piłkarski AC Milan utworzony został 16 grudnia 1899 roku, tuż przed końcem XIX wieku w Fiaschetteria Toscana na ulicy Berchet (pierwsza kwatera główna, która już nie istnieje). Na pomysł stworzenia klubu wpadli trzej Anglicy: pracownik w fabryce koronkowej (Kilpin), pracownik w agencji podróżniczej (Allison), oraz szewc (Davies). Po pół litra piwa i szklaneczce dobrego wina ("Chianti") trzej przyjaciele przedstawili swój pomysł dwojgu businessmanom - Edwardsowi Nathanowi i Barnettowi. Chcieli oni założyć klub krykietowy i piłkarski o nazwie Milan. Edwards, mianowany prezydent, nie był znany ze swojej hojności i zaakceptował pomysł, gdyż Davies (szewc), zaoferował siłę robocza i skórę do robienia butów piłkarskich. Wieści rozeszły się po Mediolanie jak błyskawica, a pomysł zyskał ogromne poparcie wśród ludzi. Ci którzy stali się członkami zarządu, zazwyczaj byli ważnymi osobistościami w mediolańskiej burżuazji, którzy również stali się pełnymi sukcesu businessman'ami: Valerio, Dubini, Angeloni, Lamperio i przede wszystkim Piero Pirelli, przyszły prezydent. Celem klubu było rozprzestrzenianie piłki nożnej i gry w krykieta, tak bardzo jak tylko jest to możliwe. Są pewne wątpliwości, jeżeli chodzi o prawdziwą datę, ale najbardziej prawdopodobna wydaje się wersja Marquess'a Porro Lambertenghi'ego, pierwszego historyka Milanu. Nowy klub zarejestrowany został przez FIF (Italian Football Federatin) i dołączył do sceny włoskiej piłki nożnej - drużyna która mogła sobie wyrzeźbić reputacje najbardziej groźnej w lidze. Milan chciał wziąć udział w pierwszych narodowych mistrzostwach i po tym jak znaleźli kwaterę główna, musieli znaleźć miejsce na boisko, na którym mogli by rozgrywać swoje mecze. Członkowie klubu znaleźli kawałek otwartej przestrzeni po stronie dzisiejszej stacji kolejowej - Trotter. Na oficjalne otwarcie obiektu zaproszony został inny mediolański klub na spotkanie towarzyskie (Mediolanium). Był to 11 marzec 1900 roku. Milan grał w białych spodenkach i w czerwono-czarnych pasiastych koszulkach. Ostateczny wynik był zachwycający 3:0 dla Milanu. Pierwszymi zawodnikami, grającymi dla "Diabłów" (tak nazywano Milan) byli: Hoode, Cignaghi, Toretta, Lees, Kilpin, Valerio, Dubini, Davies, Neville, Allison, Formenti. 15 kwietnia Milan podjął Turyn i w pierwszym meczu w mistrzostwach zostali zgniecieni przez przeciwnika 3:0. Jednak tydzień później odegrali się i pokonali w "Medalu króla" (King's Medal) Juventus 2:0 (Gole strzelił Kilpin i Allison). Herbert Kilpin był zarówno założycielem klubu jak i jego kapitanem. Milan również był pierwszym zespołem, który użył słupków bramkowych. Nowość ukazana została na boisku na Fratelli Bronzetti. Po wygraniu swoich trzech pierwszych tytułów w roku 1901, 1906 i 1907 nastąpił rozłam. Grupa członków klubu nie zgadzała się z zarządem, opuściła drużynę i stworzyła nowy klub Inter Milan.</tresc>
+      </watek>
+      <link>https://pl.wikipedia.org/wiki/A.C._Milan</link>
+      <link>http://www.acmilan24.com/pages/id/18/Historia_Ac_Milan_1899.html</link>
+      <link>https://www.acmilan.com/en/club/history</link>
+    </historia>
+
+    <hymn>
+      <tresc>Milan Milan solo con te
+Milan Milan sempre per te
+
+Camminiamo noi accanto ai nostri eroi
+sopra un campo verde, sotto un cielo blu
+Conquistate voi una stella in piu
+a brillar per noi
+e insieme cantiamo
+
+Milan Milan solo con te
+Milan Milan sempre per te
+
+(oh oh oh oh oh)
+(oh oh oh oh oh oh oh oh)
+una grande squadra
+sempre in festa ole
+(oh oh oh oh oh)
+(oh oh oh oh oh oh oh oh)
+(oh oh oh oh oh)
+e insieme cantiamo
+
+Milan Milan solo con te
+Milan Milan sempre per te
+
+Con il Milan nel cuore
+nel profondo dell'anima
+un vero amico sei
+e insieme cantiamo
+
+Milan Milan solo con te
+Milan Milan sempre per te
+
+(oh oh oh oh oh.....)</tresc>
+      <video>https://www.youtube.com/embed/5vhkSrqMAGA?ecver=2</video>
+    </hymn>
+
+  </oklubie>
+
+  <tabela>
+    <klub efekt="LM">
+      <pozycja>1</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub efekt="LM">
+      <pozycja>2</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub efekt="LM">
+      <pozycja>3</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub efekt="LM">
+      <pozycja>4</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub efekt="LE">
+      <pozycja>5</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub efekt="LE">
+      <pozycja>6</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>7</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>8</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>9</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>10</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>11</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>12</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>13</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>14</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>15</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>16</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub>
+      <pozycja>17</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub efekt="spadek">
+      <pozycja>18</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub efekt="spadek">
+      <pozycja>19</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+    <klub efekt="spadek">
+      <pozycja>20</pozycja>
+      <nazwa>Napoli</nazwa>
+      <meczy>11</meczy>
+      <w>10</w>
+      <r>1</r>
+      <p>0</p>
+      <bilans>32-8</bilans>
+      <punkty>31</punkty>
+    </klub>
+  </tabela>
+
+  <konkurs>
+    <pytania>
+      <pytanie>
+        1.<tresc>Którzy z tych piłkarz grali w barwach A.C. Milan? </tresc>
+        <odpowiedz>MarcoVanBasten Ronaldo Cafu</odpowiedz>
+      </pytanie>
+      <pytanie>
+        2.<tresc>Data powstania klubu</tresc>
+        <odpowiedz>01.01.1899r.</odpowiedz>
+      </pytanie>
+      <pytanie>
+        3.<tresc>Ile ogółem tytułów posiada na swoim koncie Milan?</tresc>
+        <odpowiedz>146</odpowiedz>
+      </pytanie>
+      <pytanie>
+        4.<tresc>Czy Milan kiedykolwiek zdobył Puchar Zdobywców Pucharów?</tresc>
+        <odpowiedz>tak</odpowiedz>
+      </pytanie>
+      <pytanie>
+        5.<tresc>Jak nazywał się gracz, który rozegrał najwięcej minut na boisku w klubie A.C. Milan?</tresc>
+        <odpowiedz>Paulo Maldini</odpowiedz>
+      </pytanie>
+    </pytania>
+  </konkurs>
+  
+</acm2524h>

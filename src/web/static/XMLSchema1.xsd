@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:annotation>
+    <xsd:documentation xml:lang="pl">
+      XML Schema do strony www
+    </xsd:documentation>
+  </xsd:annotation>
+
+  <xsd:element name="acm2524h" type="acm_typ"/>
+
+  <xsd:attribute name="dod_inf" type="krotki_tekst"/>
+
+  <xsd:element name="tresc" type="xsd:string"/>
+  
+  <xsd:complexType name="acm_typ">
+    <xsd:sequence>
+      <xsd:element name="aktualnosci" type="akt_typ"/>
+      <xsd:element name="oklubie" type="oklubie_typ"/>
+      <xsd:element name="tabela" type="tabela_typ"/>
+      <xsd:element name="konkurs" type="konkurs_typ"/>
+    </xsd:sequence>
+    <xsd:attribute name="online" type="taknie_typ" default="tak"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="akt_typ">
+    <xsd:sequence>
+      <xsd:element name="news" maxOccurs="unbounded">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="tytul" type="tytulowy_typ"/>
+            <xsd:element ref="tresc"/>
+            <xsd:element name="autor" type="krotki_tekst" minOccurs="0"/>
+          </xsd:sequence>
+          <xsd:attribute name="data_dodania" type="xsd:date" use="required"/>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="aktualne" type="taknie_typ" default="tak"/>
+  </xsd:complexType>
+  
+  <xsd:complexType name="oklubie_typ">
+    <xsd:sequence>
+      <xsd:element name="sklad" type="sklad_typ"/>
+      <xsd:element name="historia" type="historia_typ"/>
+      <xsd:element name="hymn" type="hymn_typ"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="tabela_typ">
+    <xsd:sequence>
+      <xsd:element name="klub" minOccurs="20" maxOccurs="20">
+        <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element name="pozycja">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:decimal">
+                <xsd:minInclusive value="1"/>
+                <xsd:maxInclusive value ="20"/>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="nazwa" type="krotki_tekst"/>
+          <xsd:element name="meczy" type="liczba_meczy_typ"/>
+          <xsd:element name="w" type="liczba_meczy_typ"/>
+          <xsd:element name="r" type="liczba_meczy_typ"/>
+          <xsd:element name="p" type="liczba_meczy_typ"/>
+          <xsd:element name="bilans" type="bilans_typ"/>
+          <xsd:element name="punkty" type="punkty_typ"/>
+        </xsd:sequence>
+          <xsd:attribute name="efekt" type="efekt_typ"/>
+          <xsd:attribute ref="dod_inf"/>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="konkurs_typ">
+    <xsd:sequence>
+      <xsd:element name="pytania">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="pytanie" minOccurs="0" maxOccurs="unbounded">
+              <xsd:complexType mixed="true">
+                <xsd:sequence>
+                  <xsd:element ref="tresc"/>
+                  <xsd:element name="odpowiedz">
+                    <xsd:simpleType>
+                      <xsd:list itemType="xsd:string"/>
+                    </xsd:simpleType>
+                  </xsd:element>
+                </xsd:sequence>
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:simpleType name="bilans_typ">
+    <xsd:restriction base="xsd:NMTOKEN">
+      <xsd:pattern value="\d+-\d+"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="punkty_typ">
+    <xsd:restriction base="xsd:integer">
+      <xsd:minInclusive value="0"/>
+      <xsd:maxInclusive value="114"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:simpleType name="liczba_meczy_typ">
+    <xsd:restriction base="xsd:integer">
+      <xsd:minInclusive value="0"/>
+      <xsd:maxInclusive value="38"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="efekt_typ">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="LM"/>
+      <xsd:enumeration value="LE"/>
+      <xsd:enumeration value="spadek"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="tytulowy_typ">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="120"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="krotki_tekst">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="300"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="taknie_typ">
+    <xsd:union>
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+          <xsd:pattern value="tak|nie"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType >
+        <xsd:restriction base="xsd:boolean">
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:union>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="pozycja_typ">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="napastnik"/>
+      <xsd:enumeration value="pomocnik"/>
+      <xsd:enumeration value="obronca"/>
+      <xsd:enumeration value="bramkarz"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:complexType name="sklad_typ">
+    <xsd:sequence>
+      <xsd:element name="zawodnicy">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="pilkarz" maxOccurs="unbounded">
+              <xsd:complexType>
+                  <xsd:complexContent>
+                    <xsd:extension base="czlowiek">
+                      <xsd:sequence>
+                        <xsd:element name="pozycja" type="pozycja_typ"/>
+                        <xsd:element name="nr_koszulki" type="xsd:positiveInteger"/>
+                      </xsd:sequence>
+                      <xsd:attribute name="kontuzja" type="krotki_tekst"/>
+                    </xsd:extension>
+                  </xsd:complexContent>
+                </xsd:complexType>
+            </xsd:element>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="sztab">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="trener" type="czlowiek"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="historia_typ">
+    <xsd:sequence>
+      <xsd:element name="watek" maxOccurs="unbounded">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="nr" type="xsd:positiveInteger"/>
+            <xsd:element name="temat" type="krotki_tekst"/>
+            <xsd:element ref="tresc"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="link" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="hymn_typ">
+    <xsd:sequence>
+      <xsd:sequence>
+        <xsd:element ref="tresc"/>
+        <xsd:element name="video" type="xsd:anyURI"/>
+      </xsd:sequence>
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="czlowiek">
+    <xsd:sequence>
+      <xsd:group ref="imieinazw"/>
+      <xsd:group ref="lata"/>
+      <xsd:element name="narodowosc" type="krotki_tekst"/>
+      <xsd:element name="zdjecie" type="xsd:anyURI"/>
+    </xsd:sequence>
+    <xsd:attribute ref="dod_inf"/>
+  </xsd:complexType>
+
+  <xsd:group name="imieinazw">
+    <xsd:sequence>
+      <xsd:element name="imie" type="krotki_tekst"/>
+      <xsd:element name="nazwisko" type="krotki_tekst"/>
+    </xsd:sequence>
+  </xsd:group>
+
+  <xsd:group name="lata">
+    <xsd:choice>
+      <xsd:element name="lat" type="xsd:decimal"/>
+      <xsd:element name="rok_ur" type="xsd:gYear"/>
+    </xsd:choice>
+  </xsd:group>
+</xsd:schema>
